@@ -12,7 +12,6 @@ import java.util.Date;
 @Data
 public class UserDTO implements Serializable {
     private static final long serialVersionUID = 8012924015958169769L;
-    private Long id;
 
     private String realName;
 

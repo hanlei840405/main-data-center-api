@@ -10,7 +10,7 @@ import java.io.Serializable;
 @Data
 public class OrganizationDTO implements Serializable {
 
-    private Long id;
+    private static final long serialVersionUID = 4780084339707961329L;
 
     private String code;
 
